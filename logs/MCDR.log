@@ -1,0 +1,12 @@
+[MCDR] [2026-07-07 17:06:57.725] [MainThread/INFO] [mcdr_server.py:606(__on_mcdr_start)]: MCDReforged 2.15.7 正在启动
+[MCDR] [2026-07-07 17:06:57.730] [MainThread/INFO] [python_plugin.py:36(load)]: MCDReforged 正于 Python 3.14.4 环境中运行
+[MCDR] [2026-07-07 17:06:57.731] [TaskExecutor/INFO] [plugin_manager.py:719(refresh_all_plugins_action)]: 刷新所有插件中
+[MCDR] [2026-07-07 17:06:57.732] [TaskExecutor/INFO] [mcdr_server.py:316(load_plugins)]: 没有插件变更; 已加载插件数: §72§r
+[MCDR] [2026-07-07 17:06:57.735] [MainThread/INFO] [mcdr_server.py:434(start_server)]: 正在启动服务端，启动参数为 './run.sh'
+[MCDR] [2026-07-07 17:06:57.753] [MainThread/INFO] [mcdr_server.py:500(__on_server_start_post)]: 服务端正在以 PID 53766 运行中
+[MCDR] [2026-07-07 17:06:58.658] [CheckUpdate/INFO] [update_helper.py:76(__check_update)]: MCDR 已为最新版
+[MCDR] [2026-07-07 23:04:40.541] [MainThread/INFO] [mcdr_server.py:507(__on_server_stop)]: 服务器进程已停止，返回代码为 0
+[MCDR] [2026-07-07 23:04:40.561] [MainThread/INFO] [mcdr_server.py:517(__on_server_stop)]: 服务端已关闭
+[MCDR] [2026-07-07 23:04:40.562] [MainThread/INFO] [mcdr_server.py:656(__on_mcdr_stop)]: 正在关闭 MCDR
+[MCDR] [2026-07-07 23:04:40.588] [MainThread/INFO] [console_handler.py:347(stop_kits)]: 正在关闭高级控制台
+[MCDR] [2026-07-07 23:04:40.625] [MainThread/INFO] [mcdr_server.py:691(__on_mcdr_stop)]: bye

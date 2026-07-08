@@ -1,0 +1,215 @@
+[18:42:13] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.19.3
+[18:42:13] [main/INFO]: Loading 4 mods:
+	- fabricloader 0.19.3
+	   \-- mixinextras 0.5.4
+	- java 21
+	- minecraft 1.21.8
+[18:42:13] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/carmen/%E6%96%87%E6%A1%A3/potato/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[18:42:20] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:42:23] [main/INFO]: Loaded 1407 recipes
+[18:42:23] [main/INFO]: Loaded 1520 advancements
+[18:42:23] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[18:42:23] [Server thread/INFO]: Loading properties
+[18:42:23] [Server thread/INFO]: Default game type: SURVIVAL
+[18:42:23] [Server thread/INFO]: Generating keypair
+[18:42:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:42:23] [Server thread/INFO]: Using epoll channel type
+[18:42:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:42:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:42:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:42:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:42:23] [Server thread/INFO]: Preparing level "world"
+[18:42:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:42:25] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:42:25] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:42:25] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:42:25] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:42:25] [Server thread/INFO]: Time elapsed: 1882 ms
+[18:42:25] [Server thread/INFO]: Done (2.395s)! For help, type "help"
+[18:42:45] [Server thread/INFO]: lisianthus[/127.0.0.1:60920] logged in with entity id 8 at (23.5, 63.0, -57.5)
+[18:42:45] [Server thread/INFO]: lisianthus joined the game
+[18:42:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=18, y=63, z=-62}
+[18:42:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=19, y=62, z=-60}
+[18:42:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=20, y=63, z=-60}
+[18:42:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=20, y=63, z=-61}
+[18:42:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=20, y=63, z=-60}
+[18:43:00] [Server thread/INFO]: [Not Secure] <lisianthus> Y
+[18:43:10] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[18:43:10] [Server thread/INFO]: hhhh<--[HERE]
+[18:43:12] [Server thread/INFO]: lisianthus was slain by Zombie
+[18:43:34] [Server thread/INFO]: lisianthus was slain by Zombie
+[18:43:45] [Server thread/INFO]: lisianthus lost connection: Disconnected
+[18:43:45] [Server thread/INFO]: lisianthus left the game
+[18:43:45] [Server thread/WARN]: handleDisconnection() called twice
+[18:44:45] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[18:44:59] [Server thread/INFO]: lisianthus[/127.0.0.1:33372] logged in with entity id 537 at (44.71935850352417, 64.00133597911214, -75.0546008167246)
+[18:44:59] [Server thread/INFO]: lisianthus joined the game
+[18:45:17] [Server thread/INFO]: lisianthus has made the advancement [Monster Hunter]
+[18:46:27] [Server thread/INFO]: Aeagensea_Carmen[/127.0.0.1:35578] logged in with entity id 1192 at (28.5, 64.0, -66.5)
+[18:46:27] [Server thread/INFO]: Aeagensea_Carmen joined the game
+[18:46:48] [Server thread/INFO]: Aeagensea_Carmen lost connection: Disconnected
+[18:46:48] [Server thread/INFO]: Aeagensea_Carmen left the game
+[18:46:57] [Server thread/INFO]: dcy[/127.0.0.1:59922] logged in with entity id 1342 at (30.5, 66.0, -56.5)
+[18:46:57] [Server thread/INFO]: dcy joined the game
+[18:47:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=31, y=66, z=-56}
+[18:47:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=30, y=65, z=-56}
+[18:47:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=28, y=65, z=-56}
+[18:47:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=25, y=64, z=-55}
+[18:47:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=18, y=63, z=-60}
+[18:47:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=18, y=63, z=-59}
+[18:47:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=19, y=63, z=-61}
+[18:47:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=19, y=63, z=-61}
+[18:47:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=20, y=63, z=-59}
+[18:47:12] [Server thread/INFO]: lisianthus was slain by dcy
+[18:47:18] [Server thread/INFO]: Aeagensea_Carmen[/127.0.0.1:39318] logged in with entity id 1470 at (28.3390453649393, 64.0, -68.48179278458899)
+[18:47:18] [Server thread/INFO]: Aeagensea_Carmen joined the game
+[18:47:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=22, y=63, z=-60}
+[18:47:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=23, y=63, z=-59}
+[18:47:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=23, y=63, z=-58}
+[18:47:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=23, y=63, z=-59}
+[18:47:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=22, y=63, z=-59}
+[18:47:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=28, y=64, z=-69}
+[18:47:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=27, y=64, z=-69}
+[18:47:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=31, y=64, z=-69}
+[18:47:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=22, y=63, z=-61}
+[18:47:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=34, y=64, z=-69}
+[18:47:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=35, y=64, z=-68}
+[18:47:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=34, y=64, z=-66}
+[18:47:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=34, y=64, z=-66}
+[18:47:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=33, y=64, z=-68}
+[18:47:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=32, y=64, z=-69}
+[18:47:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=32, y=64, z=-69}
+[18:49:19] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> 你们先玩，我看一下我的账号
+[18:49:23] [Server thread/INFO]: Aeagensea_Carmen lost connection: Disconnected
+[18:49:23] [Server thread/INFO]: Aeagensea_Carmen left the game
+[18:49:28] [Server thread/INFO]: lisianthus has made the advancement [Stone Age]
+[18:50:14] [Server thread/INFO]: lisianthus has made the advancement [Getting an Upgrade]
+[18:50:28] [Server thread/INFO]: dcy has made the advancement [Stone Age]
+[18:50:59] [Server thread/INFO]: dcy has made the advancement [Getting an Upgrade]
+[18:54:18] [Server thread/INFO]: dcy has made the advancement [Acquire Hardware]
+[18:54:45] [Server thread/INFO]: lisianthus lost connection: Timed out
+[18:54:45] [Server thread/INFO]: lisianthus left the game
+[18:54:50] [Server thread/INFO]: lisianthus[/127.0.0.1:36240] logged in with entity id 3050 at (258.9115625231207, 64.17675927506424, -214.77932621144535)
+[18:54:50] [Server thread/INFO]: lisianthus joined the game
+[18:57:35] [Server thread/INFO]: lisianthus lost connection: Timed out
+[18:57:35] [Server thread/INFO]: lisianthus left the game
+[18:57:46] [Server thread/INFO]: lisianthus[/127.0.0.1:50012] logged in with entity id 4249 at (273.3352079521247, 63.0, -367.0550721108168)
+[18:57:46] [Server thread/INFO]: lisianthus joined the game
+[18:58:07] [Server thread/WARN]: lisianthus moved too quickly! 6.171267860434682,0.0,-8.037891633179242
+[18:58:07] [Server thread/WARN]: dcy moved too quickly! -4.174521794937817,0.0,-9.220460977824473
+[18:58:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=264, y=64, z=-413} class_2338{x=264, y=64, z=-412}
+[19:01:02] [Server thread/INFO]: dcy has made the advancement [Local Brewery]
+[19:01:38] [Server thread/INFO]: Aeagensea_Carmen[/127.0.0.1:36296] logged in with entity id 6401 at (175.82642340965526, 74.0, -75.51903369911894)
+[19:01:38] [Server thread/INFO]: Aeagensea_Carmen joined the game
+[19:01:58] [Server thread/INFO]: dcy has made the advancement [Isn't It Iron Pick]
+[19:02:25] [Server thread/INFO]: dcy has made the advancement [Monster Hunter]
+[19:02:39] [Server thread/WARN]: Couldn't find profile with name: aegenseaormen
+com.mojang.authlib.exceptions.MinecraftClientHttpException: Couldn't find any profile with name aegenseaormen
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:103) ~[authlib-6.0.58.jar:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.58.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfileByName(YggdrasilGameProfileRepository.java:109) ~[authlib-6.0.58.jar:?]
+	at knot/net.minecraft.class_3312.method_14509(class_3312.java:80) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3312.method_14515(class_3312.java:137) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2191.method_9328(class_2191.java:65) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2191.method_9330(class_2191.java:31) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3083.method_13468(class_3083.java:33) ~[server-intermediary.jar:?]
+	at knot/com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at knot/net.minecraft.class_8865.method_54416(class_8865.java:29) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_8865.execute(class_8865.java:13) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_8856.method_54405(class_8856.java:8) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_8847.method_54388(class_8847.java:8) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_8854.method_54390(class_8854.java:107) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2170.method_54313(class_2170.java:420) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2170.method_9249(class_2170.java:350) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2170.method_44252(class_2170.java:336) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3176.method_13941(class_3176.java:300) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3176.method_61254(class_3176.java:282) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:1074) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:947) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:707) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19:02:39] [Server thread/INFO]: Made aegenseaormen a server operator
+[19:03:15] [Server thread/INFO]: Made Aeagensea_Carmen a server operator
+[19:03:53] [Server thread/INFO]: Aeagensea_Carmen has made the advancement [Stone Age]
+[19:04:11] [Server thread/INFO]: Aeagensea_Carmen has made the advancement [Getting an Upgrade]
+[19:08:55] [Server thread/INFO]: lisianthus has made the advancement [Acquire Hardware]
+[19:09:12] [Server thread/INFO]: lisianthus has made the advancement [Isn't It Iron Pick]
+[19:09:45] [Server thread/INFO]: lisianthus has made the advancement [Hot Stuff]
+[19:09:46] [Server thread/INFO]: Aeagensea_Carmen has made the advancement [Acquire Hardware]
+[19:09:53] [Server thread/INFO]: Aeagensea_Carmen has made the advancement [Isn't It Iron Pick]
+[19:11:08] [Server thread/INFO]: lisianthus was shot by Skeleton
+[19:12:22] [Server thread/WARN]: lisianthus moved too quickly! -8.49236999855762,-2.003016261509046,-5.4627194796978245
+[19:15:33] [Server thread/INFO]: Aeagensea_Carmen has made the advancement [Suit Up]
+[19:15:39] [Server thread/INFO]: lisianthus has made the advancement [Sweet Dreams]
+[19:16:12] [Server thread/INFO]: dcy has made the advancement [Sweet Dreams]
+[19:17:51] [Server thread/INFO]: Aeagensea_Carmen has made the advancement [Diamonds!]
+[19:17:55] [Server thread/INFO]: Aeagensea_Carmen was blown up by Creeper
+[19:18:39] [Server thread/WARN]: Aeagensea_Carmen moved too quickly! 9.817932908634447,1.7521489003674589,1.5207458957566757
+[19:20:16] [Server thread/INFO]: Aeagensea_Carmen fell from a high place
+[19:20:48] [Server thread/INFO]: lisianthus was slain by Spider
+[19:22:37] [Server thread/INFO]: lisianthus was slain by Zombie
+[19:23:12] [Server thread/INFO]: Aeagensea_Carmen fell from a high place
+[19:26:27] [Server thread/INFO]: lisianthus has made the advancement [Fishy Business]
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! -3.667906267023568,0.0,9.731654077800869
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! -3.8140396125453435,0.0,10.10385273830741
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! -3.9635851672968556,0.0,10.474539779955222
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! -4.117059083973231,0.0,10.843420484670418
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! -4.2748314210381295,0.0,11.210256212216791
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! -4.437150005770945,0.0,11.574860584275427
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! -4.604164783208489,0.0,11.937092872443685
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! -4.7759427434093595,0.0,12.29685496806212
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! -4.952487530660505,0.0,12.654083830807764
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! -5.133750283794257,0.0,13.00874810851954
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! -5.319642354079747,0.0,13.360842494788585
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! -5.510040204126653,0.0,13.710386603322632
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! -5.027623442902382,0.0,9.016521763070102
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! -5.264740149631393,0.0,9.336877996610752
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! -5.503662936153546,0.0,9.656001912638288
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! -5.744264315223518,0.0,9.973972661573299
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! -5.986426525250408,0.0,10.290863840626457
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! 6.968516684825772,0.0,-11.549025784900664
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! 6.968516684825772,0.0,-11.549025784900664
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! 6.968516684825772,0.0,-11.549025784900664
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! 6.968516684825772,0.0,-11.549025784900664
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! 6.968516684825772,0.0,-11.549025784900664
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! 6.968516684825772,0.0,-11.549025784900664
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! 6.968516684825772,0.0,-11.549025784900664
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! 6.968516684825772,0.0,-11.549025784900664
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! 6.731132759916818,0.0,-11.229922325137466
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! 6.968516684825772,0.0,-11.549025784900664
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! 6.968516684825772,0.0,-11.549025784900664
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! 6.968516684825772,0.0,-11.549025784900664
+[19:26:43] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! 6.968516684825772,0.0,-11.549025784900664
+[19:27:27] [Server thread/INFO]: Aeagensea_Carmen has made the advancement [Cover Me with Diamonds]
+[19:27:58] [Server thread/INFO]: [Not Secure] <lisianthus> 藏宝图
+[19:29:11] [Server thread/INFO]: dcy was slain by Zombie
+[19:34:09] [Server thread/WARN]: dcy moved too quickly! 9.774387854381757,0.0,2.28617358516982
+[19:36:58] [Server thread/INFO]: Aeagensea_Carmen suffocated in a wall
+[19:41:38] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! -10.370643094904608,0.0,0.7741101811262183
+[19:41:38] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! -10.76954834045614,0.0,0.803635347010669
+[19:41:38] [Server thread/WARN]: Spruce Boat (vehicle of lisianthus) moved too quickly! -11.168454388055125,0.0,0.833154402671255
+[19:42:46] [Server thread/INFO]: dcy was impaled by Drowned
+[19:44:32] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[19:44:37] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[19:44:41] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[19:44:42] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Survival Mode]
+[19:44:47] [Server thread/INFO]: dcy was slain by Zombie
+[19:44:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=42, y=63, z=-70}
+[19:44:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=41, y=63, z=-70}
+[19:44:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=41, y=63, z=-71}
+[19:44:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=40, y=63, z=-72}
+[19:44:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=39, y=63, z=-72}
+[19:44:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=38, y=63, z=-72}
+[19:44:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=42, y=63, z=-68}
+[19:45:17] [Server thread/INFO]: dcy lost connection: Disconnected
+[19:45:17] [Server thread/INFO]: dcy left the game
+[19:47:46] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> 你们那有村庄吗
+[19:52:28] [Server thread/INFO]: lisianthus has made the advancement [We Need to Go Deeper]
+[19:52:31] [Server thread/WARN]: Aeagensea_Carmen moved too quickly! 6.986964303650893,0.9893499858739716,7.235904399205651
+[19:52:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4302ms or 86 ticks behind
+[19:52:41] [Server thread/INFO]: lisianthus lost connection: Disconnected
+[19:52:41] [Server thread/INFO]: lisianthus left the game
+[19:53:01] [Server thread/INFO]: Aeagensea_Carmen lost connection: Disconnected
+[19:53:01] [Server thread/INFO]: Aeagensea_Carmen left the game
+[19:54:01] [Server thread/INFO]: Server empty for 60 seconds, pausing
