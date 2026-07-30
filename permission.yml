@@ -13,8 +13,11 @@
 default_level: user
 
 owner:
+- Aeagensea_Carmen
 admin:
 helper:
 user:
-- Aeagensea_Carmen
+- bot_1
+- Home_bot
+- ZZ_bot
 guest:

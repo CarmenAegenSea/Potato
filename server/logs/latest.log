@@ -1,5 +1,7 @@
-[17:06:59] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.19.3
-[17:06:59] [main/INFO]: Loading 46 mods:
+[17:08:50] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.19.3
+[17:08:50] [main/INFO]: Loading 48 mods:
+	- carpet 1.4.177+v250630
+	- carpet-org-addition 1.41.6
 	- fabric-api 0.136.1+1.21.8
 	   |-- fabric-api-base 0.5.0+cd8c0daa2c
 	   |-- fabric-api-lookup-api-v1 1.6.101+946bf4c32c
@@ -46,105 +48,397 @@
 	- fabricloader 0.19.3
 	   \-- mixinextras 0.5.4
 	- ferritecore 8.0.4
-	- java 21
+	- java 25
 	- krypton 0.2.9
 	   \-- com_velocitypowered_velocity-native 3.4.0-SNAPSHOT
 	- lithium 0.18.1+mc1.21.8
 	- minecraft 1.21.8
 	- spark 1.10.142
 	   \-- fabric-permissions-api-v0 0.4.1
-[17:06:59] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/carmen/%E6%96%87%E6%A1%A3/potato/server/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[17:06:59] [main/INFO]: Compatibility level set to JAVA_21
-[17:06:59] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
-[17:07:00] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
-[17:07:09] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.x.x (Linux x86_64)
-[17:07:09] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[17:07:09] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:07:09] [main/INFO]: Found new data pack fabric, loading it automatically
-[17:07:09] [main/INFO]: Found new data pack fabric-convention-tags-v2, loading it automatically
-[17:07:11] [main/INFO]: Loaded 1407 recipes
-[17:07:11] [main/INFO]: Loaded 1520 advancements
-[17:07:11] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 2.455 ms
-[17:07:12] [Server thread/INFO]: Starting background profiler...
-[17:07:12] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[17:07:12] [Server thread/INFO]: Loading properties
-[17:07:12] [Server thread/INFO]: Default game type: SURVIVAL
-[17:07:12] [Server thread/INFO]: Generating keypair
-[17:07:12] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:07:12] [Server thread/INFO]: Using epoll channel type
-[17:07:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:07:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:07:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:07:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:07:12] [Server thread/INFO]: Preparing level "world"
-[17:07:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:07:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:07:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:07:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:07:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:07:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:07:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:07:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:07:16] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[17:07:16] [Server thread/INFO]: Time elapsed: 3678 ms
-[17:07:16] [Server thread/INFO]: Done (4.301s)! For help, type "help"
-[17:08:11] [Server thread/INFO]: Aeagensea_Carmen[/127.0.0.1:57614] logged in with entity id 37 at (-839.758704994704, 73.5, -776.5369015706183)
-[17:08:11] [Server thread/INFO]: Aeagensea_Carmen joined the game
-[17:12:44] [Server thread/INFO]: Aeagensea_Carmen lost connection: Disconnected
-[17:12:44] [Server thread/INFO]: Aeagensea_Carmen left the game
-[17:13:25] [Server thread/INFO]: Aeagensea_Carmen[/127.0.0.1:42156] logged in with entity id 722 at (-849.8551320954477, 72.0, -774.3721514434051)
-[17:13:25] [Server thread/INFO]: Aeagensea_Carmen joined the game
-[17:16:46] [Server thread/INFO]: Aeagensea_Carmen lost connection: Disconnected
-[17:16:46] [Server thread/INFO]: Aeagensea_Carmen left the game
-[17:17:46] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[17:18:13] [Server thread/INFO]: Aeagensea_Carmen[/127.0.0.1:57610] logged in with entity id 2993 at (-859.3000000119209, 73.0, -742.4757683584269)
-[17:18:13] [Server thread/INFO]: Aeagensea_Carmen joined the game
-[17:19:51] [Server thread/INFO]: Aeagensea_Carmen lost connection: You logged in from another location
-[17:19:51] [Server thread/INFO]: Aeagensea_Carmen left the game
-[17:19:51] [Server thread/WARN]: handleDisconnection() called twice
-[17:19:53] [Server thread/INFO]: Aeagensea_Carmen[/127.0.0.1:38670] logged in with entity id 4521 at (-859.4227488810822, 73.0, -742.2447768532539)
-[17:19:53] [Server thread/INFO]: Aeagensea_Carmen joined the game
-[17:23:13] [Server thread/INFO]: Aeagensea_Carmen lost connection: Disconnected
-[17:23:13] [Server thread/INFO]: Aeagensea_Carmen left the game
-[17:24:13] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[21:10:19] [Server thread/INFO]: Aeagensea_Carmen[/127.0.0.1:36878] logged in with entity id 7471 at (-859.3000000119209, 73.0, -742.6999999880791)
-[21:10:19] [Server thread/INFO]: Aeagensea_Carmen joined the game
-[21:12:48] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
-[21:12:58] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Survival Mode]
-[21:14:17] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
-[21:21:21] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
-[21:21:40] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
-[21:22:48] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
-[21:22:50] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
-[21:23:07] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
-[21:23:43] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Survival Mode]
-[21:25:43] [Server thread/WARN]: Aeagensea_Carmen was kicked for floating too long!
-[21:25:43] [Server thread/INFO]: Aeagensea_Carmen lost connection: Flying is not enabled on this server
-[21:25:43] [Server thread/INFO]: Aeagensea_Carmen left the game
-[21:25:51] [Server thread/INFO]: Aeagensea_Carmen[/127.0.0.1:48444] logged in with entity id 11658 at (-840.6630305461376, 80.24918707874468, -778.50006403698)
-[21:25:51] [Server thread/INFO]: Aeagensea_Carmen joined the game
-[21:31:16] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
-[21:33:52] [Server thread/WARN]: Aeagensea_Carmen moved too quickly! -6.180573238331476,0.0,8.606214916560475
-[21:39:38] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Adventure Mode]
-[21:39:39] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Survival Mode]
-[21:42:29] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
-[21:43:01] [Server thread/WARN]: Aeagensea_Carmen moved too quickly! 1.2998808012079053,0.0,-10.426730065659399
-[21:45:13] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Survival Mode]
-[21:48:03] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
-[21:49:08] [Server thread/INFO]: Aeagensea_Carmen has made the advancement [We Need to Go Deeper]
-[21:49:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2560ms or 51 ticks behind
-[21:54:22] [Server thread/WARN]: Aeagensea_Carmen moved too quickly! 0.6416022889200121,-10.003097517083333,-1.2212263374680106
-[21:54:39] [Server thread/INFO]: Aeagensea_Carmen lost connection: Disconnected
-[21:54:39] [Server thread/INFO]: Aeagensea_Carmen left the game
-[21:55:39] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[23:04:39] [Server thread/INFO]: Stopping the server
-[23:04:39] [Server thread/INFO]: Stopping server
-[23:04:39] [Server thread/INFO]: Saving players
-[23:04:39] [Server thread/INFO]: Saving worlds
-[23:04:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:04:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:04:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:04:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:04:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:04:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:04:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:08:54] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/D:/Potato/server/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[17:09:00] [main/INFO]: Compatibility level set to JAVA_17
+[17:09:00] [main/INFO]: Compatibility level set to JAVA_21
+[17:09:00] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
+[17:09:00] [main/INFO]: Initializing configuration file
+[17:09:00] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
+[17:09:05] [main/INFO]: Compression will use Java, encryption will use Java
+[17:09:05] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[17:09:11] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:09:13] [main/INFO]: Loaded 1407 recipes
+[17:09:13] [main/INFO]: Loaded 1520 advancements
+[17:09:13] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.384 ms
+[17:09:13] [Server thread/INFO]: Starting background profiler...
+[17:09:13] [Server thread/INFO]: The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[17:09:13] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[17:09:13] [Server thread/INFO]: Loading properties
+[17:09:13] [Server thread/INFO]: Default game type: SURVIVAL
+[17:09:13] [Server thread/INFO]: Generating keypair
+[17:09:13] [Server thread/INFO]: Starting Minecraft server on *:25566
+[17:09:13] [Server thread/INFO]: Using default channel type
+[17:09:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:09:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:09:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:09:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:09:13] [Server thread/INFO]: Preparing level "world"
+[17:09:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:09:14] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[17:09:14] [Server thread/INFO]: Time elapsed: 474 ms
+[17:09:14] [Server thread/INFO]: Done (0.873s)! For help, type "help"
+[17:09:14] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[17:10:14] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[17:10:42] [Server thread/INFO]: Aeagensea_Carmen[/127.0.0.1:62710] logged in with entity id 15 at (-868.2222348877494, 71.9375, -707.4645670316366)
+[17:10:42] [Server thread/INFO]: Aeagensea_Carmen joined the game
+[17:10:43] [Server thread/INFO]: Player Aeagensea_Carmen joined with a matching carpet client
+[17:11:04] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp list
+[17:11:09] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp tpp zhaozhe_suaguaita
+[17:11:09] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-868.7009908186499d, 72.0d, -705.766064729823d]
+[17:11:09] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[17:11:09] [Server thread/INFO]: Teleported Aeagensea_Carmen to -14862.726486, 67.000000, -7726.881390
+[17:11:16] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp back
+[17:11:16] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-14866.093375409955d, 67.0d, -7726.5826807768d]
+[17:11:16] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[17:11:16] [Server thread/INFO]: Teleported Aeagensea_Carmen to -868.700991, 72.000000, -705.766065
+[17:12:45] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp back
+[17:12:45] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-846.6999999880791d, 72.0d, -759.1805077937734d]
+[17:12:45] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[17:12:45] [Server thread/INFO]: Teleported Aeagensea_Carmen to -14866.093375, 67.000000, -7726.582681
+[17:16:36] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp back
+[17:16:36] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-14866.484039848921d, 70.0d, -7714.993711318387d]
+[17:16:36] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[17:16:36] [Server thread/INFO]: Teleported Aeagensea_Carmen to -846.700000, 72.000000, -759.180508
+[17:17:32] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp back
+[17:17:32] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-877.5552166470967d, 72.0d, -696.4370986937495d]
+[17:17:32] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[17:17:32] [Server thread/INFO]: Teleported Aeagensea_Carmen to -14866.484040, 70.000000, -7714.993711
+[17:24:16] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[17:24:21] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Survival Mode]
+[17:26:17] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp back
+[17:26:17] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-14873.880679281698d, 67.0d, -7735.699618711198d]
+[17:26:17] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[17:26:17] [Server thread/INFO]: Teleported Aeagensea_Carmen to -877.555217, 72.000000, -696.437099
+[17:27:57] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp tpp bigshell
+[17:27:57] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-849.6473182831904d, 72.5d, -731.246767374718d]
+[17:27:57] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[17:27:57] [Server thread/INFO]: Teleported Aeagensea_Carmen to -2806.520629, 63.000000, -2560.983013
+[17:28:07] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp back
+[17:28:07] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-2803.340772955077d, 65.0d, -2555.324865221774d]
+[17:28:07] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[17:28:07] [Server thread/INFO]: Teleported Aeagensea_Carmen to -849.647318, 72.500000, -731.246767
+[17:28:21] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp tpp endDoor
+[17:28:21] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-847.4492474275851d, 72.0d, -721.5231342428494d]
+[17:28:21] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[17:28:21] [Server thread/INFO]: Teleported Aeagensea_Carmen to -2018.309088, 5.000000, -74.406809
+[17:33:40] [Server thread/INFO]: Aeagensea_Carmen lost connection: Disconnected
+[17:33:40] [Server thread/INFO]: Aeagensea_Carmen left the game
+[17:34:40] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[17:43:43] [Server thread/INFO]: Aeagensea_Carmen[/127.0.0.1:58334] logged in with entity id 7060 at (-2026.699999988079, -61.0, -75.69999998807907)
+[17:43:43] [Server thread/INFO]: Aeagensea_Carmen joined the game
+[17:43:44] [Server thread/INFO]: Player Aeagensea_Carmen joined with a matching carpet client
+[17:44:30] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp list
+[17:44:33] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp tpp zhaozhe_suaguaita
+[17:44:33] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-2031.699999988079d, -57.0d, -74.69999998807907d]
+[17:44:33] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[17:44:33] [Server thread/INFO]: Teleported Aeagensea_Carmen to -14862.726486, 67.000000, -7726.881390
+[17:46:11] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp tpp home
+[17:46:11] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-14862.94928807732d, 73.0d, -7726.724905704424d]
+[17:46:11] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[17:46:11] [Server thread/INFO]: Teleported Aeagensea_Carmen to -879.871580, 71.937500, -691.361750
+[17:50:59] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp back
+[17:50:59] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-1108.3057943120034d, 96.0d, -412.0883929769307d]
+[17:50:59] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[17:50:59] [Server thread/INFO]: Teleported Aeagensea_Carmen to -14862.949288, 73.000000, -7726.724906
+[17:57:30] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp tpp home
+[17:57:30] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-14859.59668143543d, 75.0d, -7727.880140575655d]
+[17:57:30] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[17:57:30] [Server thread/INFO]: Teleported Aeagensea_Carmen to -879.871580, 71.937500, -691.361750
+[17:58:06] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp back
+[17:58:06] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-838.0434032620709d, 73.875d, -776.0282744058597d]
+[17:58:06] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[17:58:06] [Server thread/INFO]: Teleported Aeagensea_Carmen to -14859.596681, 75.000000, -7727.880141
+[18:00:04] [Server thread/INFO]: Aeagensea_Carmen lost connection: Disconnected
+[18:00:04] [Server thread/INFO]: Aeagensea_Carmen left the game
+[18:01:04] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[18:12:04] [Server thread/INFO]: Aeagensea_Carmen[/127.0.0.1:62682] logged in with entity id 12591 at (-14860.914131726568, 75.1875, -7724.844041276295)
+[18:12:04] [Server thread/INFO]: Aeagensea_Carmen joined the game
+[18:12:05] [Server thread/INFO]: Player Aeagensea_Carmen joined with a matching carpet client
+[18:23:52] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[18:25:27] [Server thread/INFO]: Aeagensea_Carmen lost connection: Disconnected
+[18:25:27] [Server thread/INFO]: Aeagensea_Carmen left the game
+[18:26:27] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[18:26:30] [Server thread/INFO]: Aeagensea_Carmen[/127.0.0.1:64706] logged in with entity id 14931 at (-14869.479265121658, 67.42383220049184, -7712.300000011921)
+[18:26:30] [Server thread/INFO]: Aeagensea_Carmen joined the game
+[18:26:31] [Server thread/INFO]: Player Aeagensea_Carmen joined with a matching carpet client
+[18:28:01] [Server thread/INFO]: Aeagensea_Carmen lost connection: Disconnected
+[18:28:01] [Server thread/INFO]: Aeagensea_Carmen left the game
+[18:29:01] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[18:29:41] [Server thread/INFO]: Aeagensea_Carmen[/127.0.0.1:64928] logged in with entity id 15362 at (-14867.300000011921, 60.57747312928155, -7708.821724556809)
+[18:29:41] [Server thread/INFO]: Aeagensea_Carmen joined the game
+[18:29:41] [Server thread/INFO]: Player Aeagensea_Carmen joined with a matching carpet client
+[18:31:06] [Server thread/INFO]: Aeagensea_Carmen lost connection: Disconnected
+[18:31:06] [Server thread/INFO]: Aeagensea_Carmen left the game
+[18:31:34] [Server thread/INFO]: Aeagensea_Carmen[/127.0.0.1:65088] logged in with entity id 15777 at (-14869.135625116038, 61.200000047683716, -7708.2473703378855)
+[18:31:34] [Server thread/INFO]: Aeagensea_Carmen joined the game
+[18:31:35] [Server thread/INFO]: Player Aeagensea_Carmen joined with a matching carpet client
+[18:31:58] [Server thread/INFO]: Aeagensea_Carmen lost connection: Disconnected
+[18:31:58] [Server thread/INFO]: Aeagensea_Carmen left the game
+[18:32:08] [Server thread/INFO]: Aeagensea_Carmen[/127.0.0.1:65124] logged in with entity id 16086 at (-14868.45575401753, 61.200000047683716, -7709.968015681078)
+[18:32:08] [Server thread/INFO]: Aeagensea_Carmen joined the game
+[18:32:08] [Server thread/INFO]: Player Aeagensea_Carmen joined with a matching carpet client
+[18:33:25] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[18:33:30] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[18:36:10] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[18:36:12] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[18:36:14] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[18:36:15] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[18:38:04] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Survival Mode]
+[18:38:16] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp list
+[18:38:19] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp tpp home
+[18:38:19] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-14861.518577679906d, 76.0d, -7726.436685184754d]
+[18:38:19] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[18:38:19] [Server thread/INFO]: Teleported Aeagensea_Carmen to -879.871580, 71.937500, -691.361750
+[18:38:58] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp back
+[18:38:58] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-877.0858890651506d, 73.0d, -695.2835336804328d]
+[18:38:58] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[18:38:58] [Server thread/INFO]: Teleported Aeagensea_Carmen to -14861.518578, 76.000000, -7726.436685
+[18:39:55] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp tpp home
+[18:39:55] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-14858.603780872632d, 65.0d, -7708.077791919538d]
+[18:39:55] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[18:39:55] [Server thread/INFO]: Teleported Aeagensea_Carmen to -879.871580, 71.937500, -691.361750
+[18:40:25] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp tpp zhunlingbaolei
+[18:40:25] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-872.2999488173178d, 73.0d, -697.0356425685412d]
+[18:40:25] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[18:40:25] [Server thread/INFO]: Teleported Aeagensea_Carmen to -1405.014288, 102.000000, 387.006725
+[18:41:00] [Server thread/INFO]: Aeagensea_Carmen fell from a high place
+[18:41:00] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-1416.2892414980279d, 58.0d, 382.25014826096043d]
+[18:41:00] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:the_nether"
+[18:41:04] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp back
+[18:41:04] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-877.5d, 72.5625d, -679.5d]
+[18:41:04] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[18:41:04] [Server thread/INFO]: Teleported Aeagensea_Carmen to -1416.289241, 58.000000, 382.250148
+[18:41:16] [Server thread/INFO]: Aeagensea_Carmen fell from a high place
+[18:41:16] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-1424.428713859523d, 32.0d, 390.05432767196993d]
+[18:41:16] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:the_nether"
+[18:41:19] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp back
+[18:41:19] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-877.5d, 72.5625d, -679.5d]
+[18:41:19] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[18:41:19] [Server thread/INFO]: Teleported Aeagensea_Carmen to -1424.428714, 32.000000, 390.054328
+[18:41:29] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[18:42:45] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Survival Mode]
+[18:43:00] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp back
+[18:43:00] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-1433.21423527713d, 33.875d, 389.3219986802155d]
+[18:43:00] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:the_nether"
+[18:43:00] [Server thread/INFO]: Teleported Aeagensea_Carmen to -877.500000, 72.562500, -679.500000
+[18:43:05] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp tpp zhaozhe_suaguaita
+[18:43:05] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-878.9548887860391d, 72.0d, -682.8792619063444d]
+[18:43:06] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[18:43:06] [Server thread/INFO]: Teleported Aeagensea_Carmen to -14862.726486, 67.000000, -7726.881390
+[18:43:15] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[18:46:54] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[18:46:56] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[18:47:04] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[18:47:07] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[18:47:34] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[18:47:36] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[18:47:41] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[18:47:42] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[18:48:46] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[18:48:48] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[18:57:37] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[18:57:42] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[18:57:47] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[18:57:51] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[19:10:47] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp setp zhaoze_bot
+[19:10:47] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-14854.486927383368d, 188.0d, -7726.548785951764d]
+[19:10:47] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[19:11:56] [Server thread/INFO]: ZZ_bot[local] logged in with entity id 26060 at (25.5, 64.0, -57.5)
+[19:11:56] [Server thread/INFO]: ZZ_bot joined the game
+[19:14:09] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[19:14:11] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[19:14:12] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[19:14:14] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[19:16:29] [Server thread/INFO]: Aeagensea_Carmen lost connection: Disconnected
+[19:16:29] [Server thread/INFO]: Aeagensea_Carmen left the game
+[19:32:34] [Server thread/INFO]: Aeagensea_Carmen[/127.0.0.1:61089] logged in with entity id 32493 at (-14864.084310605767, 89.98973757247514, -7698.3167853539735)
+[19:32:34] [Server thread/INFO]: Aeagensea_Carmen joined the game
+[19:32:35] [Server thread/INFO]: Player Aeagensea_Carmen joined with a matching carpet client
+[19:35:08] [Server thread/INFO]: Aeagensea_Carmen lost connection: Disconnected
+[19:35:08] [Server thread/INFO]: Aeagensea_Carmen left the game
+[20:23:21] [Netty Server IO #14/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at knot/net.minecraft.class_9136.method_56426(class_9136.java:50) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2545.method_10838(class_2545.java:26) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_2545.encode(class_2545.java:12) [server-intermediary.jar:?]
+	at knot/io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) [netty-codec-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) [netty-transport-4.1.118.Final.jar:?]
+	at knot/net.minecraft.class_2535$2.write(class_2535.java:525) [server-intermediary.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) [netty-transport-4.1.118.Final.jar:?]
+	at knot/net.minecraft.class_2535.method_36942(class_2535.java:351) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_2535.method_10764(class_2535.java:343) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_2535.method_52906(class_2535.java:325) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_2535.method_10752(class_2535.java:319) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_2535.exceptionCaught(class_2535.java:170) [server-intermediary.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) [netty-common-4.1.118.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.118.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+[20:41:45] [Server thread/INFO]: Aeagensea_Carmen[/127.0.0.1:62248] logged in with entity id 54552 at (-14869.071274994125, 85.02188172394509, -7690.070454698791)
+[20:41:45] [Server thread/INFO]: Aeagensea_Carmen joined the game
+[20:41:46] [Server thread/INFO]: Player Aeagensea_Carmen joined with a matching carpet client
+[20:43:03] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[20:43:05] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[20:43:44] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[20:44:09] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[20:45:59] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[20:46:36] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[20:48:01] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[20:49:17] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[20:49:50] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[20:49:53] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[20:50:43] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[20:50:56] [Server thread/INFO]: Aeagensea_Carmen lost connection: Disconnected
+[20:50:56] [Server thread/INFO]: Aeagensea_Carmen left the game
+[21:00:13] [Netty Server IO #23/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at knot/net.minecraft.class_9136.method_56426(class_9136.java:50) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2545.method_10838(class_2545.java:26) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_2545.encode(class_2545.java:12) [server-intermediary.jar:?]
+	at knot/io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) [netty-codec-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) [netty-transport-4.1.118.Final.jar:?]
+	at knot/net.minecraft.class_2535$2.write(class_2535.java:525) [server-intermediary.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) [netty-transport-4.1.118.Final.jar:?]
+	at knot/net.minecraft.class_2535.method_36942(class_2535.java:351) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_2535.method_10764(class_2535.java:343) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_2535.method_52906(class_2535.java:325) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_2535.method_10752(class_2535.java:319) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_2535.exceptionCaught(class_2535.java:170) [server-intermediary.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) [netty-common-4.1.118.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.118.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+[21:15:14] [Server thread/INFO]: Aeagensea_Carmen[/127.0.0.1:52513] logged in with entity id 66831 at (-14862.306137003194, 65.92648941538107, -7694.521287691674)
+[21:15:14] [Server thread/INFO]: Aeagensea_Carmen joined the game
+[21:15:15] [Server thread/INFO]: Player Aeagensea_Carmen joined with a matching carpet client
+[21:16:04] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[21:17:13] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[21:18:00] [Server thread/INFO]: [Aeagensea_Carmen: The game is sprinting]
+[21:18:29] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[21:18:30] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[21:18:36] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[21:18:36] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[21:19:47] [Server thread/INFO]: Sprint completed with 225 ticks per second, or 4.43 ms per tick
+[21:25:14] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[21:28:43] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[21:28:48] [Server thread/INFO]: [Aeagensea_Carmen: The game is sprinting]
+[21:29:45] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Creative Mode]
+[21:29:54] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Spectator Mode]
+[21:29:56] [Server thread/INFO]: [Aeagensea_Carmen: Set own game mode to Survival Mode]
+[21:30:08] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp list
+[21:30:13] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp tpp home
+[21:30:13] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-14865.549757239538d, 64.0d, -7694.791687741196d]
+[21:30:13] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[21:30:13] [Server thread/INFO]: Teleported Aeagensea_Carmen to -879.871580, 71.937500, -691.361750
+[21:31:08] [Server thread/INFO]: Sprint completed with 171 ticks per second, or 5.82 ms per tick
+[21:31:16] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp back
+[21:31:16] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: [-838.9533608129675d, 73.5d, -775.6571182798078d]
+[21:31:16] [Server thread/INFO]: Aeagensea_Carmen has the following entity data: "minecraft:overworld"
+[21:31:16] [Server thread/INFO]: Teleported Aeagensea_Carmen to -14865.549757, 64.000000, -7694.791688
+[21:31:33] [Server thread/INFO]: Aeagensea_Carmen lost connection: Disconnected
+[21:31:33] [Server thread/INFO]: Aeagensea_Carmen left the game
+[22:39:30] [Netty Server IO #30/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at knot/net.minecraft.class_9136.method_56426(class_9136.java:50) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2545.method_10838(class_2545.java:26) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_2545.encode(class_2545.java:12) [server-intermediary.jar:?]
+	at knot/io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) [netty-codec-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) [netty-transport-4.1.118.Final.jar:?]
+	at knot/net.minecraft.class_2535$2.write(class_2535.java:525) [server-intermediary.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) [netty-transport-4.1.118.Final.jar:?]
+	at knot/net.minecraft.class_2535.method_36942(class_2535.java:351) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_2535.method_10764(class_2535.java:343) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_2535.method_52906(class_2535.java:325) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_2535.method_10752(class_2535.java:319) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_2535.exceptionCaught(class_2535.java:170) [server-intermediary.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.118.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) [netty-common-4.1.118.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.118.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+[23:07:11] [Server thread/INFO]: Stopping the server
+[23:07:12] [Server thread/INFO]: Stopping server
+[23:07:12] [Server thread/INFO]: Saving players
+[23:07:12] [Server thread/INFO]: Saving worlds
+[23:07:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:07:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:07:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:07:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:07:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:07:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:07:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

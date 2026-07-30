@@ -1,0 +1,22 @@
+{
+    "command_prefix": "!!stp",
+    "back_on_death": true,
+    "save_interval": 30,
+    "permissions": {
+        "back": 1,
+        "tpa": 1,
+        "tpahere": 1,
+        "tp": 2,
+        "tphere": 2,
+        "personal_waypoint": 1,
+        "global_waypoint": 2,
+        "cross_world_tp": 1
+    },
+    "worlds": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+    ],
+    "extra_dimensions": {},
+    "easy_tp": true
+}
