@@ -1,32 +1,33 @@
-[MCDR] [2026-07-31 06:57:48.692] [MainThread/INFO] [mcdr_server.py:606(__on_mcdr_start)]: MCDReforged 2.15.7 正在启动
-[MCDR] [2026-07-31 06:57:48.699] [MainThread/INFO] [python_plugin.py:36(load)]: MCDReforged 正于 Python 3.13.13 环境中运行
-[MCDR] [2026-07-31 06:57:48.745] [TaskExecutor/INFO] [meta_holder.py:201(__load_cached_file)]: 已从缓存文件加载插件仓库元数据 (更新于 2026-07-28 11:24:26)
-[MCDR] [2026-07-31 06:57:48.747] [TaskExecutor/INFO] [plugin_manager.py:719(refresh_all_plugins_action)]: 刷新所有插件中
-[MCDR] [2026-07-31 06:57:48.801] [TaskExecutor/INFO] [plugin_manager.py:216(__load_plugin)]: 插件 simple_tp@1.3.3 已加载
-[MCDR] [2026-07-31 06:57:48.817] [TaskExecutor/INFO] [plugin_manager.py:216(__load_plugin)]: 插件 g0d_of_heads@2.0.1 已加载
-[MCDR] [2026-07-31 06:57:48.841] [TaskExecutor/INFO] [plugin_manager.py:216(__load_plugin)]: 插件 minecraft_data_api@1.6.1 已加载
-[MCDR] [2026-07-31 06:57:48.860] [TaskExecutor/INFO] [plugin_manager.py:216(__load_plugin)]: 插件 mg_events@1.1.2 已加载
-[MCDR] [2026-07-31 06:57:48.882] [TaskExecutor/INFO] [plugin_manager.py:216(__load_plugin)]: 插件 online_player_api@1.2.0 已加载
-[MCDR] [2026-07-31 06:57:48.960] [TaskExecutor/INFO] [plugin_server_interface.py:313(log)] [minecraft_data_api]: 配置文件已加载
-[MCDR] [2026-07-31 06:57:48.979] [TaskExecutor/INFO] [plugin_server_interface.py:313(log)] [mg_events]: 配置文件已加载
-[MCDR] [2026-07-31 06:57:49.004] [TaskExecutor/INFO] [lang.py:16(load_lang)] [mg_events]: Locale en_us is loaded!
-[MCDR] [2026-07-31 06:57:49.022] [TaskExecutor/INFO] [plugin_server_interface.py:313(log)] [simple_tp]: 配置文件已加载
-[MCDR] [2026-07-31 06:57:49.031] [LangManager(mg_events)/INFO] [lang.py:16(load_lang)] [mg_events]: Locale zh_cn is loaded!
-[MCDR] [2026-07-31 06:57:49.046] [LangManager(mg_events)/INFO] [__init__.py:21(load_templates)] [mg_events]: Templates for parsing are loaded!
-[MCDR] [2026-07-31 06:57:49.046] [TaskExecutor/INFO] [plugin_server_interface.py:313(log)] [simple_tp]: 配置文件已加载
-[MCDR] [2026-07-31 06:57:49.049] [TaskExecutor/INFO] [mcdr_server.py:316(load_plugins)]: 共加载: §75§r 个插件; 已加载插件数: §77§r
-[MCDR] [2026-07-31 06:57:49.051] [MainThread/INFO] [mcdr_server.py:434(start_server)]: 正在启动服务端，启动参数为 'run.bat'
-[MCDR] [2026-07-31 06:57:49.075] [MainThread/INFO] [mcdr_server.py:500(__on_server_start_post)]: 服务端正在以 PID 29524 运行中
-[MCDR] [2026-07-31 06:58:06.859] [OnlinePlayersInit/INFO] [online_player.py:21(query_players)] [simple_tp]: Queried online players successfully: []
-[MCDR] [2026-07-31 08:19:57.649] [MainThread/ERROR] [mcdr_server.py:566(__receive)]: 解析文本 b'\tat knot/carpet.commands.PlayerCommand.cantSpawn(PlayerCommand.java:203) [%5B\xe5\x9c\xb0\xe6\xaf\xaf%5D%20fabric-carpet-1.21.7-1.4.177+v250630.jar:?]\r\n' 出错: {'gbk': UnicodeDecodeError('gbk', b'\tat knot/carpet.commands.PlayerCommand.cantSpawn(PlayerCommand.java:203) [%5B\xe5\x9c\xb0\xe6\xaf\xaf%5D%20fabric-carpet-1.21.7-1.4.177+v250630.jar:?]\r\n', 81, 82, 'illegal multibyte sequence')}
-[MCDR] [2026-07-31 08:19:57.653] [MainThread/ERROR] [mcdr_server.py:566(__receive)]: 解析文本 b'\tat knot/carpet.commands.PlayerCommand.spawn$mixinextras$wrapped$64(PlayerCommand.java:256) [%5B\xe5\x9c\xb0\xe6\xaf\xaf%5D%20fabric-carpet-1.21.7-1.4.177+v250630.jar:?]\r\n' 出错: {'gbk': UnicodeDecodeError('gbk', b'\tat knot/carpet.commands.PlayerCommand.spawn$mixinextras$wrapped$64(PlayerCommand.java:256) [%5B\xe5\x9c\xb0\xe6\xaf\xaf%5D%20fabric-carpet-1.21.7-1.4.177+v250630.jar:?]\r\n', 100, 101, 'illegal multibyte sequence')}
-[MCDR] [2026-07-31 08:19:57.654] [MainThread/ERROR] [mcdr_server.py:566(__receive)]: 解析文本 b'\tat knot/carpet.commands.PlayerCommand.mixinextras$bridge$spawn$mixinextras$wrapped$64$65(PlayerCommand.java) [%5B\xe5\x9c\xb0\xe6\xaf\xaf%5D%20fabric-carpet-1.21.7-1.4.177+v250630.jar:?]\r\n' 出错: {'gbk': UnicodeDecodeError('gbk', b'\tat knot/carpet.commands.PlayerCommand.mixinextras$bridge$spawn$mixinextras$wrapped$64$65(PlayerCommand.java) [%5B\xe5\x9c\xb0\xe6\xaf\xaf%5D%20fabric-carpet-1.21.7-1.4.177+v250630.jar:?]\r\n', 118, 119, 'illegal multibyte sequence')}
-[MCDR] [2026-07-31 08:19:57.655] [MainThread/ERROR] [mcdr_server.py:566(__receive)]: 解析文本 b'\tat knot/carpet.commands.PlayerCommand.wrapMethod$zlk000$carpet-org-addition$spawn(PlayerCommand.java:1017) [%5B\xe5\x9c\xb0\xe6\xaf\xaf%5D%20fabric-carpet-1.21.7-1.4.177+v250630.jar:?]\r\n' 出错: {'gbk': UnicodeDecodeError('gbk', b'\tat knot/carpet.commands.PlayerCommand.wrapMethod$zlk000$carpet-org-addition$spawn(PlayerCommand.java:1017) [%5B\xe5\x9c\xb0\xe6\xaf\xaf%5D%20fabric-carpet-1.21.7-1.4.177+v250630.jar:?]\r\n', 116, 117, 'illegal multibyte sequence')}
-[MCDR] [2026-07-31 08:19:57.656] [MainThread/ERROR] [mcdr_server.py:566(__receive)]: 解析文本 b'\tat knot/carpet.commands.PlayerCommand.spawn(PlayerCommand.java) [%5B\xe5\x9c\xb0\xe6\xaf\xaf%5D%20fabric-carpet-1.21.7-1.4.177+v250630.jar:?]\r\n' 出错: {'gbk': UnicodeDecodeError('gbk', b'\tat knot/carpet.commands.PlayerCommand.spawn(PlayerCommand.java) [%5B\xe5\x9c\xb0\xe6\xaf\xaf%5D%20fabric-carpet-1.21.7-1.4.177+v250630.jar:?]\r\n', 73, 74, 'illegal multibyte sequence')}
-[MCDR] [2026-07-31 08:19:58.279] [Parser(mg_events): DispathGameEvents/INFO] [advancement.py:12(dispatcher)] [mg_events]: Player advancement event detected!
-[MCDR] [2026-07-31 08:19:58.285] [TaskExecutor/INFO] [entry.py:40(on_player_advancement)] [mg_events]: yj_bot取得了进度§r§a[勇往直下]§r
-[MCDR] [2026-07-31 08:22:19.195] [MainThread/ERROR] [mcdr_server.py:566(__receive)]: 解析文本 b'[08:22:19] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp tpp \xe9\x8d\xa6\xe6\x89\xae\xe5\xab\xb3\xe9\x8d\xab\xe2\x80\xb3\xe7\x80\xbf\r\n' 出错: {'gbk': UnicodeDecodeError('gbk', b'[08:22:19] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp tpp \xe9\x8d\xa6\xe6\x89\xae\xe5\xab\xb3\xe9\x8d\xab\xe2\x80\xb3\xe7\x80\xbf\r\n', 91, 92, 'illegal multibyte sequence')}
-[MCDR] [2026-07-31 08:31:55.637] [Parser(mg_events): DispathGameEvents/INFO] [advancement.py:12(dispatcher)] [mg_events]: Player advancement event detected!
-[MCDR] [2026-07-31 08:31:55.638] [TaskExecutor/INFO] [entry.py:40(on_player_advancement)] [mg_events]: Aeagensea_Carmen取得了进度§r§a[自我放逐]§r
-[MCDR] [2026-07-31 15:34:21.134] [CheckUpdate/INFO] [update_helper.py:76(__check_update)]: MCDR 已为最新版
-[MCDR] [2026-07-31 17:34:23.703] [MainThread/ERROR] [mcdr_server.py:566(__receive)]: 解析文本 b'[17:34:23] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp delp \xe9\x8d\xa6\xe6\x89\xae\xe5\xab\xb3\xe9\x8d\xab\xe2\x80\xb3\xe7\x80\xbf\r\n' 出错: {'gbk': UnicodeDecodeError('gbk', b'[17:34:23] [Server thread/INFO]: [Not Secure] <Aeagensea_Carmen> !!stp delp \xe9\x8d\xa6\xe6\x89\xae\xe5\xab\xb3\xe9\x8d\xab\xe2\x80\xb3\xe7\x80\xbf\r\n', 92, 93, 'illegal multibyte sequence')}
+[MCDR] [2026-08-04 14:04:32.775] [MainThread/INFO] [mcdr_server.py:606(__on_mcdr_start)]: MCDReforged 2.15.7 正在启动
+[MCDR] [2026-08-04 14:04:32.782] [MainThread/INFO] [python_plugin.py:36(load)]: MCDReforged 正于 Python 3.13.13 环境中运行
+[MCDR] [2026-08-04 14:04:32.815] [TaskExecutor/INFO] [meta_holder.py:201(__load_cached_file)]: 已从缓存文件加载插件仓库元数据 (更新于 2026-07-28 11:24:26)
+[MCDR] [2026-08-04 14:04:32.816] [TaskExecutor/INFO] [plugin_manager.py:719(refresh_all_plugins_action)]: 刷新所有插件中
+[MCDR] [2026-08-04 14:04:32.852] [TaskExecutor/INFO] [plugin_manager.py:216(__load_plugin)]: 插件 simple_tp@1.3.3 已加载
+[MCDR] [2026-08-04 14:04:32.859] [TaskExecutor/INFO] [plugin_manager.py:216(__load_plugin)]: 插件 g0d_of_heads@2.0.1 已加载
+[MCDR] [2026-08-04 14:04:32.869] [TaskExecutor/INFO] [plugin_manager.py:216(__load_plugin)]: 插件 minecraft_data_api@1.6.1 已加载
+[MCDR] [2026-08-04 14:04:32.877] [TaskExecutor/INFO] [plugin_manager.py:216(__load_plugin)]: 插件 mg_events@1.1.2 已加载
+[MCDR] [2026-08-04 14:04:32.882] [TaskExecutor/INFO] [plugin_manager.py:216(__load_plugin)]: 插件 online_player_api@1.2.0 已加载
+[MCDR] [2026-08-04 14:04:32.955] [TaskExecutor/INFO] [plugin_server_interface.py:313(log)] [minecraft_data_api]: 配置文件已加载
+[MCDR] [2026-08-04 14:04:32.963] [TaskExecutor/INFO] [plugin_server_interface.py:313(log)] [mg_events]: 配置文件已加载
+[MCDR] [2026-08-04 14:04:32.976] [TaskExecutor/INFO] [lang.py:16(load_lang)] [mg_events]: Locale en_us is loaded!
+[MCDR] [2026-08-04 14:04:32.983] [TaskExecutor/INFO] [plugin_server_interface.py:313(log)] [simple_tp]: 配置文件已加载
+[MCDR] [2026-08-04 14:04:32.989] [LangManager(mg_events)/INFO] [lang.py:16(load_lang)] [mg_events]: Locale zh_cn is loaded!
+[MCDR] [2026-08-04 14:04:32.989] [TaskExecutor/INFO] [plugin_server_interface.py:313(log)] [simple_tp]: 配置文件已加载
+[MCDR] [2026-08-04 14:04:33.004] [LangManager(mg_events)/INFO] [__init__.py:21(load_templates)] [mg_events]: Templates for parsing are loaded!
+[MCDR] [2026-08-04 14:04:33.005] [TaskExecutor/INFO] [mcdr_server.py:316(load_plugins)]: 共加载: §75§r 个插件; 已加载插件数: §77§r
+[MCDR] [2026-08-04 14:04:33.010] [MainThread/INFO] [mcdr_server.py:434(start_server)]: 正在启动服务端，启动参数为 'run.bat'
+[MCDR] [2026-08-04 14:04:33.024] [MainThread/INFO] [mcdr_server.py:500(__on_server_start_post)]: 服务端正在以 PID 28824 运行中
+[MCDR] [2026-08-04 14:04:51.127] [OnlinePlayersInit/INFO] [online_player.py:21(query_players)] [simple_tp]: Queried online players successfully: []
+[MCDR] [2026-08-04 14:07:37.653] [MainThread/ERROR] [mcdr_server.py:566(__receive)]: 解析文本 b'\tat knot/carpet.commands.PlayerCommand.cantSpawn(PlayerCommand.java:203) [%5B\xe5\x9c\xb0\xe6\xaf\xaf%5D%20fabric-carpet-1.21.7-1.4.177+v250630.jar:?]\r\n' 出错: {'gbk': UnicodeDecodeError('gbk', b'\tat knot/carpet.commands.PlayerCommand.cantSpawn(PlayerCommand.java:203) [%5B\xe5\x9c\xb0\xe6\xaf\xaf%5D%20fabric-carpet-1.21.7-1.4.177+v250630.jar:?]\r\n', 81, 82, 'illegal multibyte sequence')}
+[MCDR] [2026-08-04 14:07:37.653] [MainThread/ERROR] [mcdr_server.py:566(__receive)]: 解析文本 b'\tat knot/carpet.commands.PlayerCommand.spawn$mixinextras$wrapped$64(PlayerCommand.java:256) [%5B\xe5\x9c\xb0\xe6\xaf\xaf%5D%20fabric-carpet-1.21.7-1.4.177+v250630.jar:?]\r\n' 出错: {'gbk': UnicodeDecodeError('gbk', b'\tat knot/carpet.commands.PlayerCommand.spawn$mixinextras$wrapped$64(PlayerCommand.java:256) [%5B\xe5\x9c\xb0\xe6\xaf\xaf%5D%20fabric-carpet-1.21.7-1.4.177+v250630.jar:?]\r\n', 100, 101, 'illegal multibyte sequence')}
+[MCDR] [2026-08-04 14:07:37.653] [MainThread/ERROR] [mcdr_server.py:566(__receive)]: 解析文本 b'\tat knot/carpet.commands.PlayerCommand.mixinextras$bridge$spawn$mixinextras$wrapped$64$65(PlayerCommand.java) [%5B\xe5\x9c\xb0\xe6\xaf\xaf%5D%20fabric-carpet-1.21.7-1.4.177+v250630.jar:?]\r\n' 出错: {'gbk': UnicodeDecodeError('gbk', b'\tat knot/carpet.commands.PlayerCommand.mixinextras$bridge$spawn$mixinextras$wrapped$64$65(PlayerCommand.java) [%5B\xe5\x9c\xb0\xe6\xaf\xaf%5D%20fabric-carpet-1.21.7-1.4.177+v250630.jar:?]\r\n', 118, 119, 'illegal multibyte sequence')}
+[MCDR] [2026-08-04 14:07:37.654] [MainThread/ERROR] [mcdr_server.py:566(__receive)]: 解析文本 b'\tat knot/carpet.commands.PlayerCommand.wrapMethod$zlk000$carpet-org-addition$spawn(PlayerCommand.java:1017) [%5B\xe5\x9c\xb0\xe6\xaf\xaf%5D%20fabric-carpet-1.21.7-1.4.177+v250630.jar:?]\r\n' 出错: {'gbk': UnicodeDecodeError('gbk', b'\tat knot/carpet.commands.PlayerCommand.wrapMethod$zlk000$carpet-org-addition$spawn(PlayerCommand.java:1017) [%5B\xe5\x9c\xb0\xe6\xaf\xaf%5D%20fabric-carpet-1.21.7-1.4.177+v250630.jar:?]\r\n', 116, 117, 'illegal multibyte sequence')}
+[MCDR] [2026-08-04 14:07:37.654] [MainThread/ERROR] [mcdr_server.py:566(__receive)]: 解析文本 b'\tat knot/carpet.commands.PlayerCommand.spawn(PlayerCommand.java) [%5B\xe5\x9c\xb0\xe6\xaf\xaf%5D%20fabric-carpet-1.21.7-1.4.177+v250630.jar:?]\r\n' 出错: {'gbk': UnicodeDecodeError('gbk', b'\tat knot/carpet.commands.PlayerCommand.spawn(PlayerCommand.java) [%5B\xe5\x9c\xb0\xe6\xaf\xaf%5D%20fabric-carpet-1.21.7-1.4.177+v250630.jar:?]\r\n', 73, 74, 'illegal multibyte sequence')}
+[MCDR] [2026-08-04 14:07:38.272] [Parser(mg_events): DispathGameEvents/INFO] [advancement.py:12(dispatcher)] [mg_events]: Player advancement event detected!
+[MCDR] [2026-08-04 14:07:38.273] [TaskExecutor/INFO] [entry.py:40(on_player_advancement)] [mg_events]: qy_bot取得了进度§r§a[结束了？]§r
+[MCDR] [2026-08-04 22:30:46.850] [MainThread/INFO] [mcdr_server.py:507(__on_server_stop)]: 服务器进程已停止，返回代码为 1073807364
+[MCDR] [2026-08-04 22:30:46.858] [MainThread/INFO] [mcdr_server.py:517(__on_server_stop)]: 服务端已关闭
+[MCDR] [2026-08-04 22:30:46.860] [MainThread/INFO] [mcdr_server.py:656(__on_mcdr_stop)]: 正在关闭 MCDR
+[MCDR] [2026-08-04 22:30:46.862] [TaskExecutor/INFO] [__init__.py:1212(on_unload)] [simple_tp]: Saving SimpleTP data on unload.
+[MCDR] [2026-08-04 22:30:46.873] [MainThread/INFO] [console_handler.py:347(stop_kits)]: 正在关闭高级控制台
+[MCDR] [2026-08-04 22:30:47.239] [MainThread/INFO] [mcdr_server.py:691(__on_mcdr_stop)]: bye
