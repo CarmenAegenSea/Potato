@@ -1,12 +1,26 @@
-[MCDR] [2026-07-07 17:06:57.725] [MainThread/INFO] [mcdr_server.py:606(__on_mcdr_start)]: MCDReforged 2.15.7 正在启动
-[MCDR] [2026-07-07 17:06:57.730] [MainThread/INFO] [python_plugin.py:36(load)]: MCDReforged 正于 Python 3.14.4 环境中运行
-[MCDR] [2026-07-07 17:06:57.731] [TaskExecutor/INFO] [plugin_manager.py:719(refresh_all_plugins_action)]: 刷新所有插件中
-[MCDR] [2026-07-07 17:06:57.732] [TaskExecutor/INFO] [mcdr_server.py:316(load_plugins)]: 没有插件变更; 已加载插件数: §72§r
-[MCDR] [2026-07-07 17:06:57.735] [MainThread/INFO] [mcdr_server.py:434(start_server)]: 正在启动服务端，启动参数为 './run.sh'
-[MCDR] [2026-07-07 17:06:57.753] [MainThread/INFO] [mcdr_server.py:500(__on_server_start_post)]: 服务端正在以 PID 53766 运行中
-[MCDR] [2026-07-07 17:06:58.658] [CheckUpdate/INFO] [update_helper.py:76(__check_update)]: MCDR 已为最新版
-[MCDR] [2026-07-07 23:04:40.541] [MainThread/INFO] [mcdr_server.py:507(__on_server_stop)]: 服务器进程已停止，返回代码为 0
-[MCDR] [2026-07-07 23:04:40.561] [MainThread/INFO] [mcdr_server.py:517(__on_server_stop)]: 服务端已关闭
-[MCDR] [2026-07-07 23:04:40.562] [MainThread/INFO] [mcdr_server.py:656(__on_mcdr_stop)]: 正在关闭 MCDR
-[MCDR] [2026-07-07 23:04:40.588] [MainThread/INFO] [console_handler.py:347(stop_kits)]: 正在关闭高级控制台
-[MCDR] [2026-07-07 23:04:40.625] [MainThread/INFO] [mcdr_server.py:691(__on_mcdr_stop)]: bye
+[MCDR] [2026-08-18 09:24:36.038] [MainThread/INFO] [mcdr_server.py:606(__on_mcdr_start)]: MCDReforged 2.15.7 正在启动
+[MCDR] [2026-08-18 09:24:36.044] [MainThread/INFO] [python_plugin.py:36(load)]: MCDReforged 正于 Python 3.13.13 环境中运行
+[MCDR] [2026-08-18 09:24:36.088] [TaskExecutor/INFO] [meta_holder.py:201(__load_cached_file)]: 已从缓存文件加载插件仓库元数据 (更新于 2026-07-28 11:24:26)
+[MCDR] [2026-08-18 09:24:36.089] [TaskExecutor/INFO] [plugin_manager.py:719(refresh_all_plugins_action)]: 刷新所有插件中
+[MCDR] [2026-08-18 09:24:36.130] [TaskExecutor/INFO] [plugin_manager.py:216(__load_plugin)]: 插件 simple_tp@1.3.3 已加载
+[MCDR] [2026-08-18 09:24:36.139] [TaskExecutor/INFO] [plugin_manager.py:216(__load_plugin)]: 插件 g0d_of_heads@2.0.1 已加载
+[MCDR] [2026-08-18 09:24:36.153] [TaskExecutor/INFO] [plugin_manager.py:216(__load_plugin)]: 插件 minecraft_data_api@1.6.1 已加载
+[MCDR] [2026-08-18 09:24:36.162] [TaskExecutor/INFO] [plugin_manager.py:216(__load_plugin)]: 插件 mg_events@1.1.2 已加载
+[MCDR] [2026-08-18 09:24:36.171] [TaskExecutor/INFO] [plugin_manager.py:216(__load_plugin)]: 插件 online_player_api@1.2.0 已加载
+[MCDR] [2026-08-18 09:24:36.253] [TaskExecutor/INFO] [plugin_server_interface.py:313(log)] [minecraft_data_api]: 配置文件已加载
+[MCDR] [2026-08-18 09:24:36.269] [TaskExecutor/INFO] [plugin_server_interface.py:313(log)] [mg_events]: 配置文件已加载
+[MCDR] [2026-08-18 09:24:36.292] [TaskExecutor/INFO] [lang.py:16(load_lang)] [mg_events]: Locale en_us is loaded!
+[MCDR] [2026-08-18 09:24:36.302] [TaskExecutor/INFO] [plugin_server_interface.py:313(log)] [simple_tp]: 配置文件已加载
+[MCDR] [2026-08-18 09:24:36.309] [TaskExecutor/INFO] [plugin_server_interface.py:313(log)] [simple_tp]: 配置文件已加载
+[MCDR] [2026-08-18 09:24:36.317] [LangManager(mg_events)/INFO] [lang.py:16(load_lang)] [mg_events]: Locale zh_cn is loaded!
+[MCDR] [2026-08-18 09:24:36.319] [TaskExecutor/INFO] [mcdr_server.py:316(load_plugins)]: 共加载: §75§r 个插件; 已加载插件数: §77§r
+[MCDR] [2026-08-18 09:24:36.333] [LangManager(mg_events)/INFO] [__init__.py:21(load_templates)] [mg_events]: Templates for parsing are loaded!
+[MCDR] [2026-08-18 09:24:36.348] [MainThread/INFO] [mcdr_server.py:434(start_server)]: 正在启动服务端，启动参数为 'run.bat'
+[MCDR] [2026-08-18 09:24:36.372] [MainThread/INFO] [mcdr_server.py:500(__on_server_start_post)]: 服务端正在以 PID 9832 运行中
+[MCDR] [2026-08-18 09:24:53.100] [OnlinePlayersInit/INFO] [online_player.py:21(query_players)] [simple_tp]: Queried online players successfully: []
+[MCDR] [2026-08-18 10:49:12.799] [MainThread/INFO] [mcdr_server.py:507(__on_server_stop)]: 服务器进程已停止，返回代码为 0
+[MCDR] [2026-08-18 10:49:12.800] [MainThread/INFO] [mcdr_server.py:517(__on_server_stop)]: 服务端已关闭
+[MCDR] [2026-08-18 10:49:12.801] [MainThread/INFO] [mcdr_server.py:656(__on_mcdr_stop)]: 正在关闭 MCDR
+[MCDR] [2026-08-18 10:49:12.801] [TaskExecutor/INFO] [__init__.py:1212(on_unload)] [simple_tp]: Saving SimpleTP data on unload.
+[MCDR] [2026-08-18 10:49:12.878] [MainThread/INFO] [console_handler.py:347(stop_kits)]: 正在关闭高级控制台
+[MCDR] [2026-08-18 10:49:13.335] [MainThread/INFO] [mcdr_server.py:691(__on_mcdr_stop)]: bye

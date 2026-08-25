@@ -1,0 +1,22 @@
+* text=auto eol=lf
+
+# Linux / macOS
+*.sh text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.properties text eol=lf
+
+# Windows
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+*.mca binary
+*.dat binary
+*.mcr binary
+*.db binary
+*.jar binary
+*.zip binary
+*.png binary
+
+logs/* binary
+crash-reports/* binary

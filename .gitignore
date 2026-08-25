@@ -1,0 +1,5 @@
+logs
+server/logs
+*.tmp
+crash-reports/
+session.lock

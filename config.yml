@@ -28,7 +28,7 @@ working_directory: server
 # Example command for starting a Minecraft server:
 #   'java -Xms1G -Xmx2G -jar minecraft_server.jar nogui'                        (shell mode)
 #   ['java', '-Xms1G', '-Xmx2G', '-jar', 'minecraft_server.jar', 'nogui']       (exec mode)
-start_command: ./run.sh
+start_command: run.bat
 
 
 # The handler to the specific way to parse the standard output text of the server and the correct command for server control
@@ -54,7 +54,7 @@ handler: vanilla_handler
 encoding: utf8
 
 # Server -> MCDR
-decoding: utf8
+decoding: gbk
 
 
 # Minecraft RCON setting
