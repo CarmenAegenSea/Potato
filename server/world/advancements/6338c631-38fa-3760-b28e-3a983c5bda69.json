@@ -17,9 +17,11 @@
       "minecraft:ice_spikes": "2026-07-04 19:04:53 +0800",
       "minecraft:frozen_ocean": "2026-07-04 19:46:29 +0800",
       "minecraft:frozen_river": "2026-07-04 18:47:55 +0800",
+      "minecraft:windswept_forest": "2026-08-07 10:36:10 +0800",
       "minecraft:ocean": "2026-07-28 19:04:32 +0800",
       "minecraft:cherry_grove": "2026-07-05 07:57:55 +0800",
       "minecraft:sunflower_plains": "2026-07-30 10:09:51 +0800",
+      "minecraft:windswept_hills": "2026-08-07 10:36:02 +0800",
       "minecraft:old_growth_spruce_taiga": "2026-07-30 10:04:31 +0800",
       "minecraft:snowy_beach": "2026-07-04 19:37:04 +0800",
       "minecraft:flower_forest": "2026-07-30 10:10:32 +0800",
@@ -3999,6 +4001,120 @@
   "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
     "criteria": {
       "has_mossy_stone_bricks": "2026-08-04 17:48:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2026-08-07 10:35:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2026-08-07 10:35:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2026-08-07 10:49:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2026-08-07 10:49:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-08-07 10:49:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-08-07 10:49:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2026-08-07 10:49:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2026-08-07 10:49:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2026-08-07 10:49:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-08-07 10:49:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2026-08-07 10:49:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2026-08-07 10:50:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2026-08-07 10:50:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:bee": "2026-08-07 10:52:17 +0800"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2026-08-07 10:52:17 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2026-08-07 10:55:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2026-08-07 10:55:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/safely_harvest_honey": {
+    "criteria": {
+      "safely_harvest_honey": "2026-08-07 10:55:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/honey_bottle": {
+    "criteria": {
+      "has_honey_block": "2026-08-07 10:56:15 +0800"
     },
     "done": true
   },
