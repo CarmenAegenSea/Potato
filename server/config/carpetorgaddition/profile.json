@@ -1,0 +1,62 @@
+{
+  "data_version": 2,
+  "count": 14,
+  "usercache": [
+    {
+      "uuid": "61569bca-bcdf-4e52-9474-4098673cf450",
+      "name": "bot_1"
+    },
+    {
+      "uuid": "0e01589f-3854-3482-b1bc-84b435982295",
+      "name": "aegenseaormen"
+    },
+    {
+      "uuid": "f407c217-72b5-33a5-95a7-9271267ebd96",
+      "name": "aeagensea_carmenbot"
+    },
+    {
+      "uuid": "55e46322-fbad-39d9-82ae-86c0d2cb4c27",
+      "name": "lisianthus"
+    },
+    {
+      "uuid": "afe7289f-e402-384a-aa90-101717338e81",
+      "name": "dcy"
+    },
+    {
+      "uuid": "3d7ef1e3-369f-38ec-92fb-cbc37c9df70b",
+      "name": "aeageaseacarmen"
+    },
+    {
+      "uuid": "30d1f707-45a4-474b-b8fb-c72d42bfd83c",
+      "name": "Home_bot"
+    },
+    {
+      "uuid": "a0ac66f8-f356-3aa3-94a9-fe270ad33102",
+      "name": "aeagensea_carmen_bot"
+    },
+    {
+      "uuid": "b9d0e2ce-67e5-3f70-b756-ae84068d48f2",
+      "name": "aeagensea_carmenb"
+    },
+    {
+      "uuid": "c2fdfd6e-f98d-40ec-9cdb-e29b01fb499a",
+      "name": "ZZ_bot"
+    },
+    {
+      "uuid": "96feef79-59c0-3511-97f5-a27bf6bfd7e8",
+      "name": "qy_bot"
+    },
+    {
+      "uuid": "8bd9be0c-0bf8-38d6-a81b-33ec5445f451",
+      "name": "yj_bot"
+    },
+    {
+      "uuid": "f50d25e5-d627-42f9-9a99-999041c64edb",
+      "name": "q_bot"
+    },
+    {
+      "uuid": "6338c631-38fa-3760-b28e-3a983c5bda69",
+      "name": "Aeagensea_Carmen"
+    }
+  ]
+}

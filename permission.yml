@@ -13,8 +13,14 @@
 default_level: user
 
 owner:
+- Aeagensea_Carmen
 admin:
 helper:
 user:
-- Aeagensea_Carmen
+- bot_1
+- Home_bot
+- ZZ_bot
+- yj_bot
+- q_bot
+- qy_bot
 guest:

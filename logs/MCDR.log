@@ -1,12 +1,17 @@
-[MCDR] [2026-07-07 17:06:57.725] [MainThread/INFO] [mcdr_server.py:606(__on_mcdr_start)]: MCDReforged 2.15.7 正在启动
-[MCDR] [2026-07-07 17:06:57.730] [MainThread/INFO] [python_plugin.py:36(load)]: MCDReforged 正于 Python 3.14.4 环境中运行
-[MCDR] [2026-07-07 17:06:57.731] [TaskExecutor/INFO] [plugin_manager.py:719(refresh_all_plugins_action)]: 刷新所有插件中
-[MCDR] [2026-07-07 17:06:57.732] [TaskExecutor/INFO] [mcdr_server.py:316(load_plugins)]: 没有插件变更; 已加载插件数: §72§r
-[MCDR] [2026-07-07 17:06:57.735] [MainThread/INFO] [mcdr_server.py:434(start_server)]: 正在启动服务端，启动参数为 './run.sh'
-[MCDR] [2026-07-07 17:06:57.753] [MainThread/INFO] [mcdr_server.py:500(__on_server_start_post)]: 服务端正在以 PID 53766 运行中
-[MCDR] [2026-07-07 17:06:58.658] [CheckUpdate/INFO] [update_helper.py:76(__check_update)]: MCDR 已为最新版
-[MCDR] [2026-07-07 23:04:40.541] [MainThread/INFO] [mcdr_server.py:507(__on_server_stop)]: 服务器进程已停止，返回代码为 0
-[MCDR] [2026-07-07 23:04:40.561] [MainThread/INFO] [mcdr_server.py:517(__on_server_stop)]: 服务端已关闭
-[MCDR] [2026-07-07 23:04:40.562] [MainThread/INFO] [mcdr_server.py:656(__on_mcdr_stop)]: 正在关闭 MCDR
-[MCDR] [2026-07-07 23:04:40.588] [MainThread/INFO] [console_handler.py:347(stop_kits)]: 正在关闭高级控制台
-[MCDR] [2026-07-07 23:04:40.625] [MainThread/INFO] [mcdr_server.py:691(__on_mcdr_stop)]: bye
+[MCDR] [2026-10-04 15:23:40.505] [MainThread/INFO] [mcdr_server.py:613(__on_mcdr_start)]: MCDReforged 2.16.0 正在启动
+[MCDR] [2026-10-04 15:23:40.508] [MainThread/INFO] [python_plugin.py:46(load)]: MCDReforged 正于 Python 3.13.16 环境中运行
+[MCDR] [2026-10-04 15:23:40.524] [TaskExecutor/INFO] [meta_holder.py:201(__load_cached_file)]: 已从缓存文件加载插件仓库元数据 (更新于 2026-07-28 11:24:26)
+[MCDR] [2026-10-04 15:23:40.525] [TaskExecutor/INFO] [plugin_manager.py:719(refresh_all_plugins_action)]: 刷新所有插件中
+[MCDR] [2026-10-04 15:23:40.526] [TaskExecutor/INFO] [plugin_manager.py:216(__load_plugin)]: 插件 g0d_of_heads@2.0.1 已加载
+[MCDR] [2026-10-04 15:23:40.539] [TaskExecutor/INFO] [plugin_manager.py:216(__load_plugin)]: 插件 minecraft_data_api@1.6.1 已加载
+[MCDR] [2026-10-04 15:23:40.540] [TaskExecutor/INFO] [plugin_manager.py:216(__load_plugin)]: 插件 mg_events@1.1.2 已加载
+[MCDR] [2026-10-04 15:23:40.540] [TaskExecutor/INFO] [plugin_manager.py:216(__load_plugin)]: 插件 online_player_api@1.2.0 已加载
+[MCDR] [2026-10-04 15:23:40.541] [TaskExecutor/INFO] [plugin_manager.py:216(__load_plugin)]: 插件 simple_tp@1.3.3 已加载
+[MCDR] [2026-10-04 15:23:40.591] [TaskExecutor/INFO] [mcdr_server.py:317(load_plugins)]: 共加载: §75§r 个插件; 已加载插件数: §77§r
+[MCDR] [2026-10-04 15:23:40.600] [MainThread/INFO] [mcdr_server.py:439(start_server)]: 正在启动服务端，启动参数为 '/usr/lib/jvm/java-21-openjdk/bin/java -Xms4G -Xmx7G -jar fabric-server-mc.1.21.8-loader.0.19.3-launcher.1.1.1.jar nogui'
+[MCDR] [2026-10-04 15:23:40.602] [MainThread/INFO] [mcdr_server.py:507(__on_server_start_post)]: 服务端正在以 PID 16048 运行中
+[MCDR] [2026-10-04 17:26:55.910] [MainThread/INFO] [mcdr_server.py:514(__on_server_stop)]: 服务器进程已停止，返回代码为 0
+[MCDR] [2026-10-04 17:26:55.920] [MainThread/INFO] [mcdr_server.py:524(__on_server_stop)]: 服务端已关闭
+[MCDR] [2026-10-04 17:26:55.920] [MainThread/INFO] [mcdr_server.py:663(__on_mcdr_stop)]: 正在关闭 MCDR
+[MCDR] [2026-10-04 17:26:56.009] [MainThread/INFO] [console_handler.py:347(stop_kits)]: 正在关闭高级控制台
+[MCDR] [2026-10-04 17:26:56.393] [MainThread/INFO] [mcdr_server.py:698(__on_mcdr_stop)]: bye

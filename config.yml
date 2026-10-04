@@ -28,8 +28,7 @@ working_directory: server
 # Example command for starting a Minecraft server:
 #   'java -Xms1G -Xmx2G -jar minecraft_server.jar nogui'                        (shell mode)
 #   ['java', '-Xms1G', '-Xmx2G', '-jar', 'minecraft_server.jar', 'nogui']       (exec mode)
-start_command: ./run.sh
-
+start_command: /usr/lib/jvm/java-21-openjdk/bin/java -Xms4G -Xmx7G -jar fabric-server-mc.1.21.8-loader.0.19.3-launcher.1.1.1.jar nogui
 
 # The handler to the specific way to parse the standard output text of the server and the correct command for server control
 #   vanilla_handler    , for Vanilla / Carpet / Fabric server
@@ -54,7 +53,7 @@ handler: vanilla_handler
 encoding: utf8
 
 # Server -> MCDR
-decoding: utf8
+decoding: gbk
 
 
 # Minecraft RCON setting
@@ -188,6 +187,7 @@ debug:
 
 # Write server outputs to the MCDR log file in addition to the console
 write_server_output_to_log_file: false
+environment:
 
 
 # =========================================
@@ -196,3 +196,4 @@ write_server_output_to_log_file: false
 
 # Options below were missing and set by MCDR with the default value
 # Remember to check and update them as soon as possible
+environment_inherit: true
