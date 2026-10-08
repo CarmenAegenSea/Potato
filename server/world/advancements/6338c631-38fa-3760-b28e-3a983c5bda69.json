@@ -4298,5 +4298,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2026-10-07 18:06:48 +0800"
+    },
+    "done": true
+  },
   "DataVersion": 4440
 }
